@@ -1,0 +1,57 @@
+Script started on 2021-02-09 22:26:34-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="126" LINES="33"]
+[0m[1;32m                                      [0m[1;32m peter[0m[1m@[0m[0m[1;32mpeter-VirtualBox[0m
+[0m[1;32m MMMMMMMMMMMMMMMMMMMMMMMMMmds+.       [0m[1;32m OS:[0m Linuxmint 20.1 ulyssa[0m
+[0m[1;32m MMm----::-://////////////oymNMd+`    [0m[1;32m Kernel:[0m x86_64 Linux 5.4.0-65-generic[0m
+[0m[1;32m MMd      [0m[1;37m/++                [0m[1;32m-sNMd:   [0m[1;32m Uptime:[0m 22m[0m
+[0m[1;32m MMNso/`  [0m[1;37mdMM    `.::-. .-::.` [0m[1;32m.hMN:  [0m[1;32m Packages:[0m 2197[0m
+[0m[1;32m ddddMMh  [0m[1;37mdMM   :hNMNMNhNMNMNh: [0m[1;32m`NMm  [0m[1;32m Shell:[0m bash 5.0.17[0m
+[0m[1;32m     NMm  [0m[1;37mdMM  .NMN/-+MMM+-/NMN` [0m[1;32mdMM  [0m[1;32m Resolution:[0m 1920x1015[0m
+[0m[1;32m     NMm  [0m[1;37mdMM  -MMm  `MMM   dMM. [0m[1;32mdMM  [0m[1;32m DE:[0m Xfce[0m
+[0m[1;32m     NMm  [0m[1;37mdMM  -MMm  `MMM   dMM. [0m[1;32mdMM  [0m[1;32m WM:[0m Xfwm4[0m
+[0m[1;32m     NMm  [0m[1;37mdMM  .mmd  `mmm   yMM. [0m[1;32mdMM  [0m[1;32m WM Theme:[0m Mint-Y[0m
+[0m[1;32m     NMm  [0m[1;37mdMM`  ..`   ...   ydm. [0m[1;32mdMM  [0m[1;32m GTK Theme:[0m Mint-Y-Darker-Blue [GTK2][0m
+[0m[1;32m     hMM- [0m[1;37m+MMd/-------...-:sdds  [0m[1;32mdMM  [0m[1;32m Icon Theme:[0m Mint-Y[0m
+[0m[1;32m     -NMm- [0m[1;37m:hNMNNNmdddddddddy/`  [0m[1;32mdMM  [0m[1;32m Font:[0m Ubuntu 10[0m
+[0m[1;32m      -dMNs-[0m[1;37m``-::::-------.``    [0m[1;32mdMM  [0m[1;32m Disk:[0m 1.5T / 1.9T (78%)[0m
+[0m[1;32m       `/dMNmy+/:-------------:/yMMM  [0m[1;32m CPU:[0m AMD Ryzen 5 1600 Six-Core @ 4x 3.194GHz[0m
+[0m[1;32m          ./ydNMMMMMMMMMMMMMMMMMMMMM  [0m[1;32m GPU:[0m SVGA3D; build[0m
+[0m[1;32m             \.MMMMMMMMMMMMMMMMMMM    [0m[1;32m RAM:[0m 852MiB / 6119MiB[0m
+[0m[1;32m                                      [0m
+]0;peter@peter-VirtualBox: ~[01;32mpeter@peter-VirtualBox[00m:[01;34m~[00m$ cd Documents/
+]0;peter@peter-VirtualBox: ~/Documents[01;32mpeter@peter-VirtualBox[00m:[01;34m~/Documents[00m$ g++ -g Hw1[K[KW1.cpp -o HW1.exe
+]0;peter@peter-VirtualBox: ~/Documents[01;32mpeter@peter-VirtualBox[00m:[01;34m~/Documents[00m$ ./HW1.exe 
+Enter an address: ^^?  https://cs.utdallas.edu:80/directory/faculty/people.html?name=Robert
+Protocol:     https
+Domain:       cs.utdallas.edu
+Port:         80
+File Path:    /directory/faculty/people
+Parameters:   name=Robert
+]0;peter@peter-VirtualBox: ~/Documents[01;32mpeter@peter-VirtualBox[00m:[01;34m~/Documents[00m$ ./HW1.exe 
+Enter an address: https://cs.utdallas.edu:80/directory/faculty/people.html?name=Robert            
+Protocol:     https
+Domain:       cs.utdallas.edu
+Port:         80
+File Path:    /directory/faculty/people
+]0;peter@peter-VirtualBox: ~/Documents[01;32mpeter@peter-VirtualBox[00m:[01;34m~/Documents[00m$ ./HW1.exe g++ -g HW1.cpp -o HW1.exe[15P./HW1.exe [K./HW1.exe 
+Enter an address: https://cs.utdallas.edu:80/directory/faculty/people.html?name=Robert            asd
+Invalid URL with following erroneous components:
+
+htmlasd        is not a valid file type.
+]0;peter@peter-VirtualBox: ~/Documents[01;32mpeter@peter-VirtualBox[00m:[01;34m~/Documents[00m$ ./HW1.exe 
+Enter an address: https://cs.utdallas.edu:80/directory/faculty/people.html?name=Robert            ^[[D^[[D^[[D             l^[[D     l                                                        httpz://cs.utdallas.edu:80000/people.html?name=Robert
+Invalid URL with following erroneous components:
+
+Protocol:     httpz is not a valid protocol.
+Port:         port number must be between 1 and 65535.
+]0;peter@peter-VirtualBox: ~/Documents[01;32mpeter@peter-VirtualBox[00m:[01;34m~/Documents[00m$ httpz://cs.utdallas.edu:80000/people.html?name=Robert
+bash: httpz://cs.utdallas.edu:80000/people.html?name=Robert: No such file or directory
+]0;peter@peter-VirtualBox: ~/Documents[01;32mpeter@peter-VirtualBox[00m:[01;34m~/Documents[00m$ httpz://cs.utdallas.edu:80000/people.html?name=Robert[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./HW1.exe [K
+Enter an address: httpz://cs.utdallas.edu:80000/people.html?name=Robert
+Invalid URL with following erroneous components:
+
+Protocol:     httpz is not a valid protocol.
+Port:         port number must be between 1 and 65535.
+]0;peter@peter-VirtualBox: ~/Documents[01;32mpeter@peter-VirtualBox[00m:[01;34m~/Documents[00m$ exit
+exit
+
+Script done on 2021-02-09 22:28:48-06:00 [COMMAND_EXIT_CODE="0"]

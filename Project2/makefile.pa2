@@ -1,0 +1,18 @@
+
+filecnt: filecnt.o
+	g++ --std=c++17 filecnt.o -o filecnt
+
+filedisp: filedisp.o
+	g++ --std=c++17 filedisp.o -o filedisp
+
+filecnt.o: filecnt.cpp
+	g++ --std=c++17 -c filecnt.cpp version.h
+
+filedisp.o: filedisp.cpp
+	g++ ---std=c++17 -c filedisp.cpp version.h
+
+clean:
+	rm *.o
+
+cleanAll:
+	rm *.o filecnt filedisp

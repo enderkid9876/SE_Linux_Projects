@@ -1,0 +1,25 @@
+Script started on 2021-03-09 18:24:57-06:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="189" LINES="49"]
+]0;peter@peter-pc:~/Codes/C++/SE_3377_Nguyen/Project2[?2004h[01;32m[peter@peter-pc[01;37m Project2[01;32m]$[00m exit./filecnt /usr/share | ./filedisp -d[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K./filecnt /usr/share | ./filedisp -d[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cg++ -std=c++1z filedisp.cpp -o filedisp[2Pcnt.cpp -o filecnt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Psudo pacman -Suyg++ -std=c++1z filecnt.cpp -o filecntdisp.cpp -o filedisp[2Pcnt.cpp -o filecnt
+[?2004l]0;peter@peter-pc:~/Codes/C++/SE_3377_Nguyen/Project2[?2004h[01;32m[peter@peter-pc[01;37m Project2[01;32m]$[00m g++ -std=c++1z filecnt.cpp -o filecnt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K./filecnt /usr/share | ./filedisp -d[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cg++ -std=c++1z filedisp.cpp -o filedisp[2Pcnt.cpp -o filecntdisp.cpp -o filedisp
+[?2004l]0;peter@peter-pc:~/Codes/C++/SE_3377_Nguyen/Project2[?2004h[01;32m[peter@peter-pc[01;37m Project2[01;32m]$[00m g++ -std=c++1z filedisp.cpp -o filedisp[2Pcnt.cpp -o filecnt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K./filecnt /usr/share | ./filedisp -d[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kg++ -std=c++1z filecnt.cpp -o filecntdisp.cpp -o filedisp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kms [K[Kv s[Kfilecnt ~/bin && mv filedisp ~/bin
+[?2004l]0;peter@peter-pc:~/Codes/C++/SE_3377_Nguyen/Project2[?2004h[01;32m[peter@peter-pc[01;37m Project2[01;32m]$[00m filecnt /usr/sa[Khare| |[C filedisp -d
+[?2004lterminate called after throwing an instance of 'std::filesystem::__cxx11::filesystem_error'
+  what():  filesystem error: directory iterator cannot open directory: Permission denied [/usr/share/polkit-1/rules.d]
+
+]0;peter@peter-pc:~/Codes/C++/SE_3377_Nguyen/Project2[?2004h[01;32m[peter@peter-pc[01;37m Project2[01;32m]$[00m filecnt /usr/share | filedisp -d[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv filecnt ~/bin && mv filedisp ~/bin[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pfilecnt /usr/share | filedisp -d[1@s[1@u[1@d[1@o[1@ 
+[?2004l[sudo] password for peter: 
+The total number of directories in directory </usr/share> is: 8651
+]0;peter@peter-pc:~/Codes/C++/SE_3377_Nguyen/Project2[?2004h[01;32m[peter@peter-pc[01;37m Project2[01;32m]$[00m sudo filecnt /usr/share | filedisp -d[Kb
+[?2004lThe total number of bytes occupied by all files in directory </usr/share> is: 3.36202e+09
+]0;peter@peter-pc:~/Codes/C++/SE_3377_Nguyen/Project2[?2004h[01;32m[peter@peter-pc[01;37m Project2[01;32m]$[00m sudo filecnt /usr/share | filedisp -b[Kf
+[?2004lThe total number of files in directory </usr/share> is: 274831
+]0;peter@peter-pc:~/Codes/C++/SE_3377_Nguyen/Project2[?2004h[01;32m[peter@peter-pc[01;37m Project2[01;32m]$[00m sudo filecnt /usr/share | filedisp -f[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[?2004lThe total number of directories in directory </usr/share> is: 8651
+
+The total number of files in directory </usr/share> is: 274831
+
+The total number of bytes occupied by all files in directory </usr/share> is: 3.36202e+09
+]0;peter@peter-pc:~/Codes/C++/SE_3377_Nguyen/Project2[?2004h[01;32m[peter@peter-pc[01;37m Project2[01;32m]$[00m exit
+[?2004lexit
+
+Script done on 2021-03-09 18:26:54-06:00 [COMMAND_EXIT_CODE="0"]

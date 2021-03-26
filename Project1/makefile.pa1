@@ -1,0 +1,12 @@
+
+a.out: main.o
+	g++ main.o -o a.out
+
+main.o: main.cpp
+	g++ -c main.cpp version.h
+
+clean: 
+	rm *.o
+
+cleanAll: 
+	rm *.o a.out

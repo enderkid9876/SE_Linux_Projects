@@ -1,0 +1,110 @@
+#!/bin/bash
+
+makeDir ()
+{
+	read -p "What would you want to name the directory: " input
+
+	echo
+	mkdir $input
+	echo
+}
+
+changeWD ()
+{
+	read -p "Which directory would you like to change to: " input
+
+	echo
+	cd $input
+	echo
+}
+
+rename ()
+{
+	read -p "Which file or folder would you like to rename: " input
+	read -p "What would you like to change $input to: " rename
+	
+	echo
+	mv $input $rename
+	echo
+}
+
+
+del ()
+{
+	
+	read -p "Which file or directory would you like to delete: " input
+
+	echo 
+	if [ -d $input ]
+	then
+		rmdir $input
+	else
+		rm $input
+	fi
+	echo
+
+}
+
+copyFile ()
+{
+	read -p "Which file would you like to copy: " input
+	read -p "What would you like to name the new file: " copy
+	cp $input $copy
+}
+
+main ()
+{
+	
+	echo 'File Manager Menu:'
+	echo '1) Make a directory in the current working directory'
+	echo '2) Change working directory'
+	echo '3) Rename a file or directory'
+	echo '4) Delete a file or a directory (and its contents)'
+	echo '5) Copy a file'
+	echo '0) Exit'
+	echo
+	echo "Current working directory: $PWD"
+	echo
+	read -p "What do you want to do? ===> " opt
+
+	if [[ -n ${opt//[0-9]/} ]]
+	then
+		echo 'Not a number please try again'
+
+	elif [ $opt -eq 1 ]
+	then
+		makeDir
+
+	elif [ $opt -eq 2 ]
+	then
+		changeWD
+	
+	elif [ $opt -eq 3 ]
+	then
+		rename
+
+	elif [ $opt -eq 4 ]
+	then
+		del
+	
+	elif [ $opt -eq 5 ]
+	then
+		copyFile
+
+	elif [ $opt -eq 0 ]
+	then 
+		exit 0
+
+	else
+		echo 'Input not available please try again'
+	
+	fi
+}
+
+
+
+
+while :
+do
+main
+done
