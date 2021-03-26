@@ -25,6 +25,7 @@ int main(int argc, char *argv[])
     
     else { explore(file, folder, size, path); }
 
+    // Displays the total files, directories, and total size
     std::cout << "The total number of directories in directory <" << path << "> is: " << folder << std::endl;
     std::cout << std::endl;
     std::cout << "The total number of files in directory <" << path << "> is: " << file << std::endl;

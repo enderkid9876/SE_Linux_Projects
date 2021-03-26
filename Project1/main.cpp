@@ -98,7 +98,7 @@ int main()
             cout << setw(14) << "Parameters:" << parameters << endl;
     }
 
-
+    // If there is something invalid then display that invalid part
     else
     {
         cout << "Invalid URL with following erroneous components:\n\n";
